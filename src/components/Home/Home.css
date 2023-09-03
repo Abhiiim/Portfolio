@@ -1,0 +1,50 @@
+.home-container {
+    width: 100%;
+}
+
+.container-img {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.home-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%; /* Adjust this to position the text vertically */
+    left: 50%; /* Adjust this to position the text horizontally */
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Add padding to the text for better readability */
+}
+
+.home-intro {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #64B5F6;
+    padding-bottom: 3rem;
+}
+
+.all-projects {
+    text-decoration: none;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.all-projects:hover {
+    font-size: 1.04rem;
+}
