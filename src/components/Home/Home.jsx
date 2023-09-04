@@ -36,7 +36,7 @@ function Home() {
         </div>
       </div>
       <div className="projects-section">
-        <h1>My Projects</h1>
+        <h1 style={{color: "white"}}>My Projects</h1>
         <div className='projects'>
           <ProjectCard project={projects[0]} />
           <ProjectCard project={projects[1]} />
@@ -44,7 +44,7 @@ function Home() {
         </div>
         <Link to='/projects' className='all-projects'>See All Projects</Link>
       </div>
-      <div className="skills">
+      <div className="skills-section">
         <Skills />
       </div>
     </div>

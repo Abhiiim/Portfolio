@@ -3,41 +3,49 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
+    padding-top: 1rem;
 }
 
 .skills-body {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* gap: 20rem; */
 }
 
-/* Define the initial state of the box */
+.skills-element {
+  margin: 2rem 4rem;
+}
+
+.tools, .programming {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animated-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 .animated-box {
-    width: 300px;
-    height: 10px; /* Small height */
-    background-color: #ccc; /* Initial background color */
-    position: relative;
-    overflow: hidden;
-  }
+  width: 350px;
+  height: 10px;
+  background-color: #ccc;
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.animated-box-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; /* Initial width of 0 */
+  height: 100%;
+  background-color: #04f6f2; /* Desired background color */
+  transition: width 2s ease; /* Transition for smooth width changes */
+}
   
-  /* Add a pseudo-element for the animation */
-  .animated-box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0; /* Initial width of 0 */
-    height: 100%;
-    background-color: #3498db; /* Desired background color */
-    animation: fillAnimation 2s forwards; /* Use animation to fill to 80% */
-  }
-  
-  @keyframes fillAnimation {
-    0% {
-      width: 0; /* Start with 0% width */
-    }
-    100% {
-      width: 80%; /* End with 80% width */
-    }
-  }
+ 
   
