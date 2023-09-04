@@ -1,7 +1,7 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: #0C356A;
 }
 
 .projects {
@@ -12,21 +12,25 @@
 
 .project-heading {
     text-align: center;
+    color: white;
 }
 
 .card-body {
     width: 400px;
-    height: 260px;
+    /* height: 260px; */
     margin: 2rem 3rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), 
               -5px -5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     position: relative;
-    background-color: #e7f0f1;
+    background-color: lavender;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
 }
 
 .card-body2 {
     padding: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .card-heading {
@@ -46,11 +50,31 @@
     font-weight: 700;
 }
 
+.project-task {
+    border: 1px solid #bfbaba;;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
 .links {
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
+    left: 35%;
+}
+
+.links a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.links a:hover {
+    font-size: 19px;
+    background-color: #0C356A;
+    color: white;
 }

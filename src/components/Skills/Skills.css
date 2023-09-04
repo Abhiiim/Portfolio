@@ -30,6 +30,7 @@
 .animated-box {
   width: 350px;
   height: 10px;
+  border-radius: 2px;
   background-color: #ccc;
   position: relative;
   overflow: hidden;

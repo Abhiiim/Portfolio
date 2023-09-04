@@ -16,7 +16,8 @@ export const projects = [
         tasks: [
             "Developed a hierarchical system in which employees are stored based on indexes and can be updated if required.",
             "Implemented general tree for storing hierarchy information and AVL tree for for efficient data look-up in hierarchy."
-        ]
+        ],
+        github_repo: "https://github.com/Abhiiim/Organisation_hierarchy"
     }, {
         title: "Simulation of working of a restaurant",
         date: "April 2022",
@@ -24,7 +25,8 @@ export const projects = [
         tasks: [
             "Developed simulation of working of burger restaurant and estimated parameters like avg wait time, queue length.",
             "Implemented Minheap for efficient running of simulation, also implemented queue and vector as per requirement."
-        ]
+        ],
+        github_repo: "https://github.com/Abhiiim/Mcmohan_burger"
     }, {
         title: "Todo List", 
         date: "July 2023",
@@ -33,27 +35,30 @@ export const projects = [
             "Created a Todo-list web app, integrating CRUD operations, task prioritization, and due date management.",
             "Implemented sorting, filtering, and user-friendly interactions for task organization, enhancing the user experience.",
             "Ensured data persistence with LocalStorage, while maintaining clean, modular JavaScript code."
-        ]
+        ], github_repo: "https://github.com/Abhiiim/Todo-List"
     }, {
         title: "Blog Website",
         date: "January 2022",
         tech_stack: "Node.js, EJS, MongoDB",
         tasks: [
             "Created a website for writing blogs using Node.js, EJS and used MongoDB to store information."
-        ]
+        ], 
+        github_repo: "https://github.com/Abhiiim/Blog-Website/tree/master"
     }, {
         title: "Simon Game",
         date: "December 2021",
-        teck_stack: "JavaScript, jQuery, HTML, CSS",
+        tech_stack: "JavaScript, jQuery, HTML, CSS",
         tasks: [
             "Created a short-term memory-based game for children using JavaScript, jQuery, HTML and CSS."
-        ]
+        ], 
+        github_repo: "https://github.com/Abhiiim/Simon-Game"
     }, {
         title: "Movie Listing Website",
         date: "July 2023",
         tech_stack: "React.js, HTML, API",
         tasks: [
             "Created a website using React.js that fetch data from an API, list all the movies that is searched by a keyword and has options to like and comments on a particular movie and to filter the movie by year."
-        ]
+        ],
+        github_repo: "https://github.com/Abhiiim/Movie-List-react"
     }
 ]

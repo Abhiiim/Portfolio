@@ -10,10 +10,11 @@ function ProjectCard({ project }) {
                 <div className='card-tech'>
                     <span className='tech-stack'>Tech Stack</span>: {project.tech_stack}
                 </div>
-                <div>{project.tasks[0]}</div>
+                {project.tasks.map((task, index) => {
+                    return <div className='project-task' key={index}>{task}</div>
+                })}
                 <div className="links">
-                    <div><a target="_blank" href={project.github_repo}>Github Repo</a></div>
-                    <div><Link>See More Details</Link></div>
+                    <a target="_blank" href={project.github_repo}>Github Repo</a>
                 </div>
             </div>
         </div>

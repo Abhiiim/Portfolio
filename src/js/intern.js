@@ -1,10 +1,10 @@
 export const intern = [
     {
         company: "SmallDay IT Services",
-        location: "Bangalore",
+        location: "Bangalore, India",
         role: "Software Developer Intern",
         date: "June 2022 - July 2022",
-        teck_stack: "Kubernetes, Docker, JavaScript, HTML, CSS, Bootstrap, Django",
+        tech_stack: "Kubernetes, Docker, JavaScript, HTML, CSS, Bootstrap, Django",
         tasks: [
             "Deployed and Integrated an open source coding platform on Kubernetes cluster using docker and minikube.",
             "Designed a home page for a coding platform using HTML, Bootstrap and CSS and integrated it with backend.",

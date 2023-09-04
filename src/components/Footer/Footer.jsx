@@ -5,7 +5,7 @@ import { faLinkedin, faGithub, faInstagram, faTwitter } from '@fortawesome/free-
 
 function Footer() {
     return (
-        <div className="footer-container">
+        <div className="footer-container" id='footer-section'>
             <div className='footer'>
                 <div className="left-footer">
                     <div className='contact'>Contact me</div>

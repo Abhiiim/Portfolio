@@ -16,7 +16,7 @@
 
 .text-overlay {
     position: absolute;
-    top: 60%; /* Adjust this to position the text vertically */
+    top: 70%; /* Adjust this to position the text vertically */
     left: 50%; /* Adjust this to position the text horizontally */
     transform: translate(-50%, -50%);
     padding: 10px; /* Add padding to the text for better readability */
@@ -26,6 +26,69 @@
     font-size: 2.2rem;
     font-weight: 700;
     margin: 1rem;
+}
+
+.resume {
+    /* margin-top: 2rem; */
+    display: flex;
+}
+
+.resume-link {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    width: 100px;
+    margin: 2rem 1rem;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-link:hover {
+    font-size: 1.05rem;
+    background-color: #0C356A;
+}
+
+.know-more {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 2rem 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.know-more:hover {
+    color: white;
+    background-color: #0C356A;
+}
+
+.intern-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.internships {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intern-section::before {
+    content: "";
+    background-image: url("../../img/intern2.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .projects-section {
@@ -54,11 +117,12 @@
     border: 1px solid black;
     border-radius: 5px;
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 2rem;
 }
 
 .all-projects:hover {
     font-size: 1.04rem;
+    background-color: #0C356A;
 }
 
 .skills-section {
