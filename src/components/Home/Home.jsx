@@ -37,7 +37,7 @@ function Home() {
           <span id="typed-text" className='home-intro'></span>
           <div className="resume">
             <a className='resume-link' target='_blank' href="https://drive.google.com/file/d/1iFeBgzC733ac_owjyr5XIOLhSG_RNSbh/view">My Resume</a>
-            <Link className='know-more'>Know More About Me</Link>
+            <Link to='/about' className='know-more'>Know More About Me</Link>
           </div>
         </div>
       </div>
