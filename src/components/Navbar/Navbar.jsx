@@ -11,13 +11,13 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="burger-menu" onclick="toggleNav()">
+      <div className="burger-menu" onClick={toggleNav}>
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
       <RouterLink to='/' className="app-name">My Portfolio</RouterLink>
-      <div className="nav-list">
+      <div id='navbar' className="nav-list">
         <RouterLink to='/projects' className="nav-item">Projects</RouterLink>
         <ScrollLink className="nav-item" to="skills-section" smooth={true} duration={500}>Skills</ScrollLink>
         <RouterLink to='/about' className="nav-item">About</RouterLink>

@@ -11,6 +11,12 @@
     font-size: 18px;
 }
 
+@media screen and (max-width: 600px) {
+    .intern-body {
+        width: 350px;
+    }
+}
+
 .company {
     text-align: center;
     background-color: #dbd4d4;

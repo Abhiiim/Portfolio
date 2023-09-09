@@ -8,7 +8,14 @@
 .footer {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+/* @media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+} */
 
 .contact {
     margin: 0.5rem;

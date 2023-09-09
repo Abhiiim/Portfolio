@@ -28,6 +28,12 @@
     font-size: 18px;
 }
 
+@media screen and (max-width: 600px) {
+    .card-body {
+        width: 350px;
+    }
+}
+
 .card-body2 {
     padding: 1rem;
     margin-bottom: 2.5rem;

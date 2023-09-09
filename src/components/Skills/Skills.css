@@ -8,7 +8,8 @@
 
 .skills-body {
     display: flex;
-    /* gap: 20rem; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skills-element {
@@ -36,6 +37,16 @@
   overflow: hidden;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+@media screen and ((min-width: 850px) and (max-width: 1072px)) {
+  .animated-box {
+    width: 300px;
+  }
+
+  .skills-element {
+    margin: 2rem 2rem;
+  }
 }
 
 .animated-box-inner {
