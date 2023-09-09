@@ -18,10 +18,10 @@ const Navbar = () => {
       </div>
       <RouterLink to='/' className="app-name">My Portfolio</RouterLink>
       <div id='navbar' className="nav-list">
-        <RouterLink to='/projects' className="nav-item">Projects</RouterLink>
-        <ScrollLink className="nav-item" to="skills-section" smooth={true} duration={500}>Skills</ScrollLink>
-        <RouterLink to='/about' className="nav-item">About</RouterLink>
-        <ScrollLink className="nav-item" to="footer-section" smooth={true} duration={500}>Contacts</ScrollLink>
+        <RouterLink to='/projects' className="nav-item" onClick={toggleNav}>Projects</RouterLink>
+        <RouterLink className="nav-item" to="/skills" onClick={toggleNav}>Skills</RouterLink>
+        <RouterLink to='/about' className="nav-item" onClick={toggleNav}>About</RouterLink>
+        <ScrollLink className="nav-item" to="footer-section" smooth={true} duration={500} onClick={toggleNav}>Contacts</ScrollLink>
       </div>
     </div>
   );
