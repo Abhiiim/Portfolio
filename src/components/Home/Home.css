@@ -51,6 +51,9 @@
         left: 20%;
         transform: translate(0, 0);
     }
+    .home-intro {
+        font-size: 2rem;
+    }
 }
 
 .resume {
